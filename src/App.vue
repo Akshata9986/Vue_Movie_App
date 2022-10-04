@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>SUPERHIT MOVIE INFORMATION📽🎬</h1>
+  <movie-search />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MovieSearch from "./components/MovieSearch.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MovieSearch,
+  },
+};
 </script>
 
 <style>
